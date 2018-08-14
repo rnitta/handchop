@@ -10,8 +10,6 @@ module Handchop
   end
 
   class Text
-
-
     def initialize(text)
       @text = text
     end
@@ -104,16 +102,5 @@ module Handchop
       end
       [:doc, document]
     end
-
-    def test(str)
-      p config.block_tag
-      configure do |config|
-        config.block_tag = 'hoge'
-      end
-      p config.block_tag
-      p Xpathoid.open_tag(str)
-      p Xpathoid.close_tag(str)
-    end
-
   end
 end

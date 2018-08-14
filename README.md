@@ -61,7 +61,7 @@ Handchop.configure do |config|
 end
 ```
 
-## implementation
+## Implementation
 
 You can see something.
 
